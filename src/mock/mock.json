@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "avatarPet": "gato.png",
+        "nomePet": "Bangela",
+        "idade": "7",
+        "peso": "4,5",
+        "raca": "Sem Raça",
+        "cor": "Tigrada",
+        "agenda": {
+            "alimentacao": "13h - 20min",
+            "banhoTosa": "14/05/2022",
+            "passeio": "19h"
+        }
+    },
+    {
+        "id": 2,
+        "avatarPet": "gato2.png",
+        "nomePet": "Fred",
+        "idade": "1",
+        "peso": "6,0",
+        "raca": "Ragdoll",
+        "cor": "Branco",
+        "agenda": {
+            "alimentacao": "14h - 20min",
+            "banhoTosa": "02/08/2022",
+            "passeio": "06h"
+        }
+    },
+    {
+        "id": 3,
+        "avatarPet": "gato3.jpg",
+        "nomePet": "Lili",
+        "idade": "3",
+        "peso": "3,2",
+        "raca": "Manx",
+        "cor": "Rajado",
+        "agenda": {
+            "alimentacao": "19h - 30min",
+            "banhoTosa": "04/07/2022",
+            "passeio": "12h"
+        }
+    }
+]

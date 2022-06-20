@@ -2,7 +2,7 @@
     <nav class="teste">
         <ul class="container">
             <li class="item-navegacao">
-                <a href="#/meupet">
+                <a href="#/meupet/1">
                     <img src="../assets/meupet.png" alt="Saúde">
                     <p>Meu Pet</p>
                 </a>
@@ -42,15 +42,6 @@ export default {
 </script>
 
 <style scoped>
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
-}
-
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;

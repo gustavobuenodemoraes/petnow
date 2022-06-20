@@ -1,38 +1,6 @@
 <template>
-  <div class="telefone">
-
-    <component :is="currentView" />
-
-  </div>
+  <router-view/>
 </template>
-
-<script>
-import Categorias from './components/Categorias.vue'
-import MeuPet from './components/MeuPet.vue'
-
-const routes = {
-  '/': Categorias,
-  '/meupet': MeuPet
-}
-
-export default {
-  data() {
-    return {
-      currentPath: window.location.hash
-    }
-  },
-  computed: {
-    currentView() {
-      return routes[this.currentPath.slice(1) || '/']
-    }
-  },
-  mounted() {
-    window.addEventListener('hashchange', () => {
-      this.currentPath = window.location.hash
-    })
-  }
-}
-</script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
@@ -41,6 +9,17 @@ export default {
 * {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-weight: bold;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .titulo {

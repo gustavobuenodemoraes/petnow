@@ -1,13 +1,13 @@
 <template>
     <section class="container">
-        <img class="logo" src="../assets/Logo.png" alt="Logo do Pet Now">
+        <img class="logo" src="../assets/logo.png" alt="Logo do Pet Now">
         <h1 class="titulo">Categorias</h1>
         <Navegacao class="nav" />
     </section>
 </template>
 
 <script>
-import Navegacao from './Navegacao.vue'
+import Navegacao from '@/components/Navegacao.vue'
 
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
